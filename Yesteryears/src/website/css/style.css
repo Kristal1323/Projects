@@ -1,0 +1,722 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	background: bisque;
+	color: black;
+}
+
+/* Main Menu */
+#main-menu {
+	font-size: 1em;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	background-color: rgb(54, 6, 6);
+}
+
+#main-menu ul {
+	text-align: center;
+	padding: 1em;
+}
+
+#main-menu li {
+	list-style: none;
+	padding: 0.2em;
+
+}
+
+#main-menu a {
+	display: block;
+	color: bisque;
+	text-decoration: none;
+	padding: 0.25em 1em;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+#main-menu a:hover {
+	background-color: rgb(99, 38, 38);
+}
+
+/* Page Header */
+#page-header {
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	text-align: center;
+	background-size: cover;
+	background-position: center center;
+}
+
+#page-header h1 {
+	font-weight: 300;
+	font-size: 3em;
+	line-height: 1em;
+	color:  rgb(54, 6, 6);
+	text-transform: uppercase;
+	background-color:  rgba(139, 110, 86, 0.562);
+	text-shadow: 3px 3px rgba(222, 184, 135, 0.815);
+	padding: 0.5em;
+
+}
+
+body.page-overview #page-header {
+	background-image: url(../images\ &\ files/suite.jpg);
+}
+
+.page-overview .view-button {
+	background: black;
+	padding: 0.5em;
+	border: 2px solid black;
+}
+
+.page-overview .view-button a {
+	font-size: 2em;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: burlywood;
+	text-decoration: none;
+}
+
+/* HOME PAGE */
+#deals {
+	padding: 1.5em;
+	overflow: hidden;
+}
+
+#deals > h2, 
+#rooms > h2,
+#dining > h2 {
+	font-size: 3em;
+	line-height: 1em;
+	font-weight: 300;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+
+/* Rooms div */
+#rooms {
+	padding: 2em;
+	background: rgb(43, 27, 27);
+	text-align: center;
+	color: bisque;
+}
+
+#rooms article {
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+#rooms article figure {
+	padding-bottom: 1em;
+}
+#rooms article img {
+	max-width: 80%;
+}
+
+/* Deals div */
+
+#deals {
+	text-align: center;
+	background: rgb(99, 38, 38);
+	color: bisque;
+}
+
+#deals article {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+#deals article figure {
+	padding-bottom: 1em;
+}
+#deals article img {
+	max-width: 80%;
+}
+
+/* Dining div */
+#dining {
+    text-align: center;
+    padding: 3vh;
+    background: rgb(109, 81, 59);
+	color: bisque;
+}
+
+#dining article {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+#dining article figure {
+	padding-bottom: 1em;
+}
+
+#dining .dining-pic img {
+    max-width: 70%;
+}
+
+/* ABOUT US PAGE */
+/* Overview */
+#overview {
+    background: bisque;
+}
+
+#overview h2, p {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+#overview h2 {
+    text-shadow: 3px 3px burlywood;
+	text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 3em;
+	padding-top: 0.5em;
+}
+
+#overview p {
+	margin: 2.5em;
+    padding: 1em;
+    background-color: burlywood;
+    font-size: 1.5em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.678);
+}
+
+#overview .resort-overview {
+    padding: 2em;
+    text-align: center; 
+}
+
+#overview .resort-overview > h2, p {
+    text-align: justify;
+    
+}
+
+/* Slideshow */
+#slideshow {
+	text-align: center;
+	padding: 2em;
+	background: linear-gradient(90deg, rgba(59,9,9,1) 0%, rgba(161,50,50,1) 50%, rgba(182,150,116,1) 100%);
+}
+
+#slideshow h2 {
+	text-transform: uppercase;
+	color: burlywood;
+	font-size: 1.5em;
+	padding-bottom: 0.5em;
+}
+
+#slideshow .container {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 1em;
+}
+
+#slideshow img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+#slideshow .tns-controls {
+	display: none;
+	text-align: center;
+}
+
+#slideshow .tns-controls button {
+	padding: 1em;
+	margin: 2em;
+	font-weight: bold;
+	color: bisque;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	background-color: rgb(99, 38, 38);
+	border: 2px solid bisque;
+}
+
+body.js #slideshow .tns-controls {
+	display: block;
+}
+
+
+/* BOOKINGS AND TICKETS PAGE */
+
+/* Book Rooms */
+#book-rooms .room-pictures, #book-rooms-popup .room-pictures {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+
+}
+
+#book-rooms .room-pictures img, #book-rooms-popup .room-pictures img{
+    width: 50%;
+    height: auto;
+    box-shadow: 10px 10px 5px rgba(27, 9, 9, 0.712);
+}
+
+
+#book-rooms {
+	text-align: center;
+    background: rgb(99, 38, 38);
+    padding: 1em;
+}
+
+#book-rooms h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    color: wheat;
+}
+
+
+#book-rooms .view-button {
+    justify-content: flex-end; /* FIX */
+    background: black;
+    height: auto;
+    box-shadow: 10px 10px 5px rgba(27, 9, 9, 0.712);
+    padding: 1em;
+}
+
+#book-rooms .view-button a {
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: burlywood;
+}
+/* Book Rooms Popup */
+#book-rooms-popup {
+	position: fixed;
+	padding: 2em;
+	top: 0;
+	left: 0;
+	background-color: rgba(139, 110, 86, 0.808);
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#book-rooms-popup h2 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#book-rooms-popup h3 {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#book-rooms-popup ul{
+	font-size: 1.5em;
+}
+
+#book-rooms-popup .close-button a {
+	color:rgb(54, 6, 6);
+	text-decoration: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 1em;
+}
+
+#book-rooms-popup .close-button a:before {
+	content: "\2716";
+	padding-right: 5px;
+}
+
+body.show-book-rooms-popup {
+	overflow: hidden;
+}
+
+body.show-book-rooms-popup #book-rooms-popup {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* Tickets */
+#tickets {
+	background-color: black;
+	padding: 2em;
+}
+
+#tickets h1 ,#tickets h2, #tickets p {
+	text-align: center;
+}
+
+#tickets h1 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: white;
+	padding: 1em;
+}
+
+#tickets .ticket-types {
+	color: white;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	text-shadow: 2px 3px rgba(27, 9, 9, 0.644);
+}
+
+/* Booking Form & Contact Us Form*/
+
+#bookings-tickets, #contact-us {
+	padding: 2em;
+}
+
+
+
+#bookings-tickets .booking-form, #contact-us .email-form {
+	background: linear-gradient(90deg, rgba(59,9,9,1) 0%, rgba(161,50,50,1) 50%, rgba(182,150,116,1) 100%);
+	color: bisque;
+	padding: 1em;
+	margin-top: 1em;
+}
+
+#bookings-tickets .booking-form fieldset, #contact-us .email-form fieldset {
+	border: 2px solid bisque;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+#contact-us .email-form .form-item,
+#bookings-tickets .form-item {
+	text-align: center;
+}
+
+#contact-us .form-item input[type=text], 
+#contact-us .form-item textarea[id=description],
+#bookings-tickets .form-item input[type=text],
+#bookings-tickets .form-item select{
+	font-family: 'Lora', serif;
+	border: 2px solid bisque;
+	color: bisque;
+	background-color: rgb(43, 27, 27);
+}
+
+#contact-us button[type="submit"], #bookings-tickets button[type="submit"]{
+	margin: 0.5em;
+	box-shadow: 3px 3px rgba(27, 9, 9, 0.644);
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: rgba(139, 110, 86);
+	border: 1px solid rgba(139, 110, 86);
+	color: rgb(43, 27, 27);
+	padding: 1em;
+}
+
+/* Bookings & Tickets Form */
+
+#bookings-tickets h3 {
+	text-transform: uppercase;
+	padding-bottom: 0.5em;
+}
+
+label.error {
+	color: red;
+}
+
+input[type=text].error {
+	border-color: red;
+}
+
+
+/* DINING PAGE */
+#dining-info article {
+	padding: 2em;
+	background-color: black;
+	color: bisque;
+}
+
+#dining-info h2 {
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding-bottom: 0.5em;
+}
+
+#dining-info p {
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+#dining-info img {
+	max-width: 100%;
+	padding: 0.5em;
+}
+
+#dining-info img {
+	max-width: 100%;
+}
+
+/* LOCATIONS PAGE */
+#locations {
+	text-transform: uppercase;
+	background-color: burlywood;
+	padding: 1em;
+	text-align: center;
+}
+
+#locations iframe {
+	max-width: 80%;
+	padding: 2em;
+}
+
+
+/* HELP CENTER PAGE */
+/* Contact Us */
+
+#contact-us h1 {
+	padding-bottom: 1em;
+	text-transform: uppercase;
+	color: rgb(99, 38, 38);
+	font-size: 2em;
+}
+#contact-us h2 {
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+
+#contact-us .contact-info img {
+	width: 90%;
+}
+
+#contact-us .contact-info > ul {
+	padding-left: 1.2em;
+}
+
+/* FAQ */
+
+#faq {
+	background-color: rgba(27, 9, 9, 0.644);
+	padding: 2em;
+	color: bisque;
+}
+
+#faq h2 {
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+#faq article {
+	width: 100%;
+	padding-bottom: 1.5em;
+}
+
+#faq article h3 {
+	text-transform: uppercase;
+}
+
+#faq article .answers-button {
+	display: none;
+}
+
+body.js #faq article .answers-button {
+	display: block;
+}
+
+body.js #faq article .answers-button a {
+	text-transform: uppercase;
+	color: bisque;
+	text-decoration: none;
+}
+
+body.js #faq article .answers-button a:after {
+	content: "+";
+	padding-left: 0.25em;
+}
+
+body.js #faq article .answers {
+	height: 0;
+	overflow: hidden;
+	transition: all 1s ease;
+}
+
+body.js #faq article.view .answers-button {
+	display: none;
+}
+
+body.js #faq article.view .answers {
+	height: 100%;
+}
+
+
+/* Page Footer */
+
+#page-footer {
+	font-family: 'Lora', serif;
+	background-color: rgb(54, 6, 6);
+	padding: 1em;
+	text-transform: uppercase;
+	color: bisque;
+}
+
+#page-footer p {
+	font-weight: bolder;
+	font-family: 'Lora', serif;
+}
+
+#page-footer a {
+	color: burlywood;
+}
+
+#page-footer a:hover {
+	color: grey;
+}
+
+
+/* Bigger Screens */
+
+@media only screen and (min-width: 1000px)  and (orientation: landscape) {
+
+	body {
+		font-size: 0.8em;
+		line-height: 1.5em;
+	}
+	.page-overview .view-button {
+		background: none;
+		border: none;
+	}
+	
+	/* Main Menu */
+
+	#main-menu ul {
+		font-size: 1.1em;
+		display: flex;
+		justify-content: center;
+		padding: 0;
+		text-align: center;
+	}
+
+	#main-menu li {
+		padding: 0.75em 0.5em;
+	}
+
+	/* Page Header */
+
+	#page-header {
+		min-height: 80vh;
+	}
+
+	#page-header h1 {
+		font-size: 4em;
+	}
+
+
+    /* Overview */
+    #overview {
+        display: flex;
+    }
+    #overview .resort-overview {
+        flex: 50%;
+    }
+	
+	#deals article, #dining article {
+		font-size: 2em;
+	}
+
+	 /* Slideshow */
+
+	#slideshow {
+		padding: 10em;
+	}
+
+	#slideshow h2 {
+		font-size: 3em;
+		
+	}
+	
+	/* Deals */
+
+	#deals article img {
+		max-width: 50%;
+	}
+
+	/* Bookings and Tickets Page */
+
+	#book-rooms {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	#book-rooms .room-types {
+		flex: 0 32%;
+		height: 100%; 
+		margin-bottom: 2%
+	}
+	
+	#book-rooms .room-pictures img {
+		width: 50%;
+		height: auto;
+		box-shadow: 10px 10px 5px rgba(27, 9, 9, 0.712);
+	}
+
+	#tickets {
+		display: flex;
+	}
+
+	#tickets .ticket-types {
+		flex: 50%;
+		justify-content: space-around;
+		margin: 1em;
+	}
+
+	#tickets h2, #tickets p {
+		padding: 0.5em;
+		font-size: 2em;
+	}
+
+	#bookings-tickets {
+		font-size: 2em;
+	}
+
+	/* Bookings Form and Contact Form */
+	#contact-us .form-item input[type=text], 
+	#contact-us .form-item textarea[id=description],
+	#bookings-tickets .form-item input[type=text],
+	#bookings-tickets .form-item select{
+		margin: 0.5em;
+		font-size: 1em;
+	}
+
+	/* Dining Info */
+	#dining-info {
+		text-align: center;
+	}
+	#dining-info img {
+		max-width: 60%;
+	}
+	#dining-info h2 {
+		font-size: 3em;
+	}
+	#dining-info p {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	/* Contact Us */
+	#contact-us {
+		display: flex;
+		font-size: 1.5em;
+	}
+	#contact-us .contact-info {
+		flex: 50%;
+	}
+
+	#contact-us .contact-info > ul {
+		padding-bottom: 1em;
+	}
+
+	/* Page Footer */
+	#page-footer {
+		padding: 1.5em 3em;
+	}
+
+
+}

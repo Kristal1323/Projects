@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Yesteryears Escape Theme Park and Resort</title>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="page-overview">
+		
+		<nav id="main-menu">
+			
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="aboutus.html">About Us</a>
+				</li>
+				<li>
+					<a href="bookings.html">Bookings & Tickets</a>
+				</li>
+				<li>
+					<a href="dining.html">Dining</a>
+				</li>
+				<li>
+					<a href="locations.html">Locations</a>
+				</li>
+				<li>
+					<a href="helpcenter.html">Help Center</a>
+				</li>
+			</ul>
+
+		</nav>
+
+		<header id="page-header">
+
+			<section class="header-bar">
+				<h1>Yesteryears</h1>
+			</section>
+
+		</header>
+
+        <section id="book-rooms">
+            <article class="room-types">
+                <h2>Prehistoric Era</h2>
+                <figure class="room-pictures">
+                    <img src="images & files/prehistory_room.jpg">
+					<nav class="view-button">
+						<a id="prehistory" href="book-rooms.html">View Details > </a>
+					</nav>
+                </figure>
+            </article>
+	
+			<article class="room-types">
+                <h2>Classical Era</h2>
+                <figure class="room-pictures">
+                    <img src="images & files/classical_room.jpeg">
+                    <nav class="view-button">
+						<a id="classical" href="book-rooms.html">View Details ></a>
+					</nav>
+                </figure>
+            </article>
+			<article class="room-types">
+                <h2>The Middle Ages</h2>
+                <figure class="room-pictures">
+                    <img src="images & files/middle_ages_room.jpg">
+                    <nav class="view-button">
+						<a id="middle-ages" href="book-rooms.html">View Details ></a>
+					</nav>
+                </figure>
+            </article>
+			<article class="room-types">
+                <h2>Early Modern Era</h2>
+                <figure class="room-pictures">
+                    <img src="images & files/early_modern_room.jpg">
+                    <nav class="view-button">
+						<a id="early-modern" href="book-rooms.html">View Details ></a>
+					</nav>
+                </figure>
+            </article>
+			<article class="room-types">
+                <h2>Modern Era</h2>
+                <figure class="room-pictures">
+                    <img src="images & files/modern_room.jpg">
+                    <nav class="view-button">
+						<a id="modern" href="book-rooms.html">View Details ></a>
+					</nav>
+                </figure>
+            </article>
+        </section>
+		<section id="book-rooms-popup">
+			<article class="room-types">
+				<nav class="close-button">
+					<a href="bookings.html">Close</a>
+				</nav>
+                <h2 id="popup-header">Prehistoric Era</h2>
+				<figure class="room-pictures">
+					<img id="popup-image" src="images & files/prehistory_room.jpg">
+				</figure>
+				<h3 id="popup-price"> $177.00 </h3>
+				<h3 id="popup-max-guests">  Maximum: 2 guests </h3>
+				<ul id = "popup-text"> 
+					Room Inclusions : 
+					<li> Double Bed </li>	
+					<li> Free Wi-fi </li>	
+					<li> Free Snacks & Soft Drinks </li>	
+					<li> LED TV 40" </li>	
+					<li> Air Conditioner </li>	
+					<li> Mini-refridgerator </li>	
+					<li> Microwave </li>	 
+					<li> Shower </li>	
+				</ul>
+            </article>
+		</section>	
+		
+		<section id="tickets">
+			<h1>Ticket Types</h1>
+			<article class = "ticket-types">
+				<h2>Single Day Pass</h2>
+				<p> $77.00 </p>
+			</article>
+			<article class = "ticket-types">
+				<h2>3 Days Pass</h2>
+				<p> $157.00 </p>
+			</article>
+			<article class = "ticket-types">
+				<h2>Annual Pass</h2>
+				<p> $177.00 </p>
+			</article>
+		</section>
+
+		<section id="bookings-tickets">
+			<form class="booking-form" method="get">
+				<fieldset>
+					<h3 id="booking-text">Bookings & Tickets</h3>
+					<div class="form-item">
+						<label for="fname">First Name:</label><br>
+						<div class="form-element">
+							<input type="text" id="fname" name="fname">
+						</div>
+					</div>
+					<div class="form-item">
+						<label for="lname">Last Name:</label><br>
+						<div class="form-element">
+							<input type="text" id="lname" name="lname">
+						</div>
+					</div>
+					<div class="form-item">
+						<label for="email">Email Address:</label><br>
+						<div class="form-element">
+							<input type="text" id="email" name="email">
+						</div>
+					</div>
+					<div class="form-item">
+						<label for="phone">Phone:</label><br>
+						<div class="form-element">
+							<input type="text" id="phone" name="phone">
+						</div>
+					</div>
+					<div class="form-item">
+						<label for="rooms">Room Type:</label><br>
+						<div class="form-element">
+							<select id="room-types" name="room-types">
+								<option value="1">Prehistoric Era - $177.00</option>
+								<option value="2">Classical Era - $377.00</option>
+								<option value="3">The Middle Ages - $277.00</option>
+								<option value="4">Early Modern Era - $277.00</option>
+								<option value="5">Modern Era - $377.00</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-item">
+						<label for="tickets">Ticket Type:</label><br>
+						<div class="form-element">
+							<select id="ticket-types" name="ticket-types">
+								<option value="1">Single Day Pass - $77.00</option>
+								<option value="2">3 Days Pass - $157.00</option>
+								<option value="3">Annual Pass - $177.00</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-item">
+						<label for="credit-card-type">Credit Card Type:</label><br>
+						<div class="form-element">
+							<select id="credit-card-types" name="creditcard-types">
+								<option value="1">Visa</option>
+								<option value="2">Master Card</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-item">
+						<label for="credit-card-no">Credit Card No.</label><br>
+						<div class="form-element">
+							<input type="text" id="credit-card-no" name="credit-card">
+						</div>
+					</div>
+					<div class="form-item">
+						<label for="cvv">CVV</label><br>
+						<div class="form-element">
+							<input type="text" id="cvv" name="cvv">
+						</div>
+					</div>
+					<div class="form-item">
+						<div class="form-element">
+							<button type="submit">Confirm</button>             
+						</div>
+					</div>
+				</fieldset>  	
+			</form>
+			
+		</section>
+
+		<footer id="page-footer">
+			<nav class="footer-menu">
+				<a href="#" class="facebook">facebook  |  </a>
+				<a href="#" class="instagram">instagram  |  </a>
+				<a href="#" class="twitter">twitter  |  </a>
+				<a href="#" class="youtube">youtube</a>
+			</nav>
+			<p>&copyYesteryears. All Rights Reserved</p>
+		</footer>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/bookings.js"></script>
+
+	</body>
+</html>
