@@ -1,6 +1,3 @@
-# Assignment 1 Support Code
-
-This is the support code for COMP3702 2022 Assignment 1 (HexBot).
 
 The following files are provided:
 
